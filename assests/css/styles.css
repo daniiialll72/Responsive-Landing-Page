@@ -1,0 +1,35 @@
+.dot {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: rgb(74, 18, 112);
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  
+  .hex1::before {
+    content: "\2B22";
+    display:block;
+    color: rgb(170, 129, 197);
+    font-size:27rem;
+    /* -webkit-transform: rotate(-30deg); */
+    /* -moz-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg); */
+    transform: rotate(0deg);
+  }
+  .hex2::before {
+    content: "\2B22";
+    display:block;
+    color: rgb(59, 8, 59);
+    font-size:27rem;
+    /* -webkit-transform: rotate(-30deg); */
+    /* -moz-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg); */
+    transform: rotate(10deg);
+  }
+  .bgSizeCover {
+    background-image: url('../images/background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
